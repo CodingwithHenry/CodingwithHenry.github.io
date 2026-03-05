@@ -259,6 +259,13 @@
       margin-bottom: 20px;
     }
     .about-text strong { color: var(--ink); font-weight: 500; }
+    .about-link {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--cream-mid);
+      transition: border-color 0.2s;
+    }
+    .about-link:hover { border-color: var(--red); }
 
     /* Outside interests strip */
     .interests {
@@ -611,7 +618,7 @@
       <div class="about-cols">
         <div class="reveal">
           <p class="about-text">
-            I'm a Data &amp; Software Engineer at <strong>Control-F GmbH</strong>, where I
+            I'm a Data &amp; Software Engineer at <strong><a href="https://control-f.io" target="_blank" rel="noopener" class="about-link">Control-F GmbH</a></strong>, where I
             design and maintain the pipelines and systems that move, transform, and serve
             data reliably. Python is my primary tool — I've used it across the full range,
             from quick automations to production-grade data infrastructure.
@@ -639,7 +646,7 @@
           <div class="info-card">
             <div class="info-row">
               <span class="info-label">Currently at</span>
-              <span class="info-val">Control-F GmbH</span>
+              <span class="info-val"><a href="https://control-f.io" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--cream-mid);transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--red)'" onmouseout="this.style.borderColor='var(--cream-mid)'">Control-F GmbH ↗</a></span>
             </div>
             <div class="info-row">
               <span class="info-label">Role</span>
@@ -848,10 +855,10 @@
               </div>
               <span class="clink-arrow">↗</span>
             </a>
-            <a href="https://github.com/yourhandle" target="_blank" rel="noopener" class="clink">
+            <a href="https://github.com/CodingwithHenry" target="_blank" rel="noopener" class="clink">
               <div class="clink-left">
                 <span class="clink-platform">GitHub</span>
-                <span class="clink-val">github.com/yourhandle</span>
+                <span class="clink-val">github.com/CodingwithHenry</span>
               </div>
               <span class="clink-arrow">↗</span>
             </a>
