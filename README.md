@@ -11,10 +11,9 @@ Palette: neutral off-white `#f5f4f0`, deep teal accent `#0e6e59`, teal-dark sect
 
 ### Must fill in before publishing
 
-- [ ] **4 project cards** — each needs a real name, description (2–3 sentences: what it is, the problem it solved, what you're proud of), tags (tech used), and a link (`href`). Currently all say "Project Name / Placeholder".
 - [ ] **Email address** — replace `your@email.com` in the contact section
-- [ ] **GitHub URL** — replace `github.com/yourhandle`
 - [ ] **LinkedIn URL** — replace `linkedin.com/in/yourprofile`
+- [ ] **Thesis project link** (card 03) — currently `href="#"`, add a GitHub/PDF link if available
 
 ### Photo
 
@@ -32,8 +31,14 @@ Palette: neutral off-white `#f5f4f0`, deep teal accent `#0e6e59`, teal-dark sect
 - [ ] Favicon (a small `HB` or dot in teal)
 - [ ] `<meta property="og:*">` tags if sharing the link on social
 
+### Barbertime (add when ready)
+
+- [ ] Barbertime is a work-in-progress SaaS — add it as project card 05 once it has paying customers
+- When the time comes: replace Wichtelstuff or add a 5th card (the grid handles odd numbers fine with CSS)
+- A live product with real users will be the strongest card on the page — worth waiting for
+- Repo: `github.com/CodingwithHenry/barbertime`
+
 ### Decisions to make
 
 - Does the "Open to freelance" chip and contact copy feel right, or too forward/not forward enough?
-- Should projects link to GitHub repos, live demos, or a case-study page?
 - Any social links beyond GitHub + LinkedIn + email (e.g. Twitter/X)?
